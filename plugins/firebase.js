@@ -1,5 +1,5 @@
-import firebase from 'firebase'
-
+import { firebase } from 'firebase/app'
+import '@firebase/firestore'
 // .envからプロジェクトIDを取得して定数に設定
 const config = {
   projectId: process.env.VUE_APP_FIREBASE_PROJECT_ID,
